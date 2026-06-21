@@ -23,4 +23,4 @@ Since the project is already built into static assets, running it is incredibly 
 
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/shahriaribnealam//sia-drop.git](https://github.com/shahriaribnealam//sia-drop.git)
+   git clone [https://github.com/shahriaribnealam/sia-drop.git](https://github.com/shahriaribnealam/sia-drop.git)

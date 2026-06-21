@@ -1,5 +1,5 @@
 # SIA-Drop
-SiaDrop - A P2P file transfer over local network. No server, no upload, no account. Open the same URL on any device on your WiFi and share files directly via WebRTC.
+SIA Drop - A P2P file transfer over local network. No server, no upload, no account. Open the same URL on any device on your WiFi and share files directly via WebRTC.
 
 ## Credits / Acknowledgments
 This project is a heavily improved and customized version, built upon the core concept of the original [FileDrop](https://github.com/osama2kabdullah/FileDrop) by [osama2kabdullah](https://github.com/osama2kabdullah) repository. Thanks for the original implementation!
@@ -23,4 +23,4 @@ Since the project is already built into static assets, running it is incredibly 
 
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/SiaDrop.git](https://github.com/YOUR_USERNAME/SiaDrop.git)
+   git clone [https://github.com/shahriaribnealam//sia-drop.git](https://github.com/shahriaribnealam//sia-drop.git)

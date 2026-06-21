@@ -1,8 +1,28 @@
 # SIA-Drop
 SIA Drop - A P2P file transfer over local network. No server, no upload, no account. Open the same URL on any device on your WiFi and share files directly via WebRTC.
 
-## Credits / Acknowledgments
-This project is a heavily improved and customized version, built upon the core concept of the original [FileDrop](https://github.com/osama2kabdullah/FileDrop) by [osama2kabdullah](https://github.com/osama2kabdullah) repository. Thanks for the original implementation!
+## 📖 How to Use SiaDrop (Step-by-Step Guide)
+
+SiaDrop works directly browser-to-browser (P2P). No accounts, no logins, and no file size limits! To share files between two devices (e.g., Phone to Laptop or PC to PC), follow these simple steps:
+
+### 1️⃣ Open SiaDrop on Both Devices
+* On **Device A** (Sender), open the live link: [https://siadrop.pages.dev/](https://siadrop.pages.dev/)
+* On **Device B** (Receiver), open the same link: [https://siadrop.pages.dev/](https://siadrop.pages.dev/)
+
+### 2️⃣ Connect the Devices
+* Look at the unique short ID (e.g., `SIA-12345`) displayed on **Device B** (Receiver).
+* On **Device A** (Sender), type or paste Device B's ID into the input field and click **Connect** (or click on their node icon if they appear on your screen).
+* Once connected, the status will change to **"Connected"**.
+
+### 3️⃣ Select and Send Files
+* On **Device A**, click the **Choose Files** or **Send File** button.
+* Select one or multiple files/folders that you want to transfer.
+* Click **Send**.
+
+### 4️⃣ Accept and Download (Auto-Zip)
+* **Device B** will instantly receive a pop-up prompt asking to accept the incoming transfer.
+* Click **Accept/Download**.
+* If multiple files were sent, SiaDrop will automatically bundle them into a single, clean `.zip` file and save it directly to your device!
 
 ---
 
@@ -24,3 +44,6 @@ Since the project is already built into static assets, running it is incredibly 
 1. Clone this repository:
    ```bash
    git clone https://github.com/shahriaribnealam/sia-drop.git
+
+## Credits / Acknowledgments
+This project is a heavily improved and customized version, built upon the core concept of the original [FileDrop](https://github.com/osama2kabdullah/FileDrop) by [osama2kabdullah](https://github.com/osama2kabdullah) repository. Thanks for the original implementation!

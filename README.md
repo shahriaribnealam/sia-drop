@@ -6,8 +6,8 @@ SIA Drop - A P2P file transfer over local network. No server, no upload, no acco
 SiaDrop works directly browser-to-browser (P2P). No accounts, no logins, and no file size limits! To share files between two devices (e.g., Phone to Laptop or PC to PC), follow these simple steps:
 
 ### 1️⃣ Open SiaDrop on Both Devices
-* On **Device A** (Sender), open the live link: [https://siadrop.pages.dev/](https://siadrop.pages.dev/)
-* On **Device B** (Receiver), open the same link: [https://siadrop.pages.dev/](https://siadrop.pages.dev/)
+* On **Device A** (Sender), open the live link: [https://siadrop.pages.dev](https://siadrop.pages.dev)
+* On **Device B** (Receiver), open the same link: [https://siadrop.pages.dev](https://siadrop.pages.dev)
 
 ### 2️⃣ Connect the Devices
 * Look at the unique short ID (e.g., `SIA-12345`) displayed on **Device B** (Receiver).

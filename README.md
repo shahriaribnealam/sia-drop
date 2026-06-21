@@ -45,5 +45,9 @@ Since the project is already built into static assets, running it is incredibly 
    ```bash
    git clone https://github.com/shahriaribnealam/sia-drop.git
 
+   ---
+
 ## Credits / Acknowledgments
 This project is a heavily improved and customized version, built upon the core concept of the original [FileDrop](https://github.com/osama2kabdullah/FileDrop) by [osama2kabdullah](https://github.com/osama2kabdullah) repository. Thanks for the original implementation!
+
+> 📢 **Note:** This is a brand new & improved customized version built by **[Shahriar Ibne Alam](https://github.com/shahriaribnealam)**, significantly upgrading the core concept of the original repository.

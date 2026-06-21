@@ -1,27 +1,27 @@
 # SIA-Drop
 SIA Drop - A P2P file transfer over local network. No server, no upload, no account. Open the same URL on any device on your WiFi and share files directly via WebRTC.
 
-## 📖 How to Use SiaDrop (Step-by-Step Guide)
+## 📖 How to Use SIA Drop (Step-by-Step Guide)
 
-SiaDrop works directly browser-to-browser (P2P). No accounts, no logins, and no file size limits! To share files between two devices (e.g., Phone to Laptop or PC to PC), follow these simple steps:
+SIA Drop works directly browser-to-browser (P2P). No accounts, no logins, and no file size limits! To share files between two devices (e.g., Phone to Laptop or PC to PC), follow these simple steps:
 
-### 1️⃣ Open SiaDrop on Both Devices
+### 1️⃣ Open SIA Drop on Both Devices
 * On **Device A** (Sender), open the live link: [https://siadrop.pages.dev](https://siadrop.pages.dev)
 * On **Device B** (Receiver), open the same link: [https://siadrop.pages.dev](https://siadrop.pages.dev)
 
 ### 2️⃣ Connect the Devices
-* Look at the unique short ID (e.g., `SIA-12345`) displayed on **Device B** (Receiver).
+* Look at the unique short ID (e.g., `SIA-XXXXX`) displayed on **Device B** (Receiver).
 * On **Device A** (Sender), type or paste Device B's ID into the input field and click **Connect** (or click on their node icon if they appear on your screen).
 * Once connected, the status will change to **"Connected"**.
 
 ### 3️⃣ Select and Send Files
-* On **Device A**, click the **Choose Files** or **Send File** button.
+* On **Device A**, click the **Upload file(s)** or **Send File** button.
 * Select one or multiple files/folders that you want to transfer.
 * Click **Send**.
 
 ### 4️⃣ Accept and Download (Auto-Zip)
 * **Device B** will instantly receive a pop-up prompt asking to accept the incoming transfer.
-* Click **Accept/Download**.
+* Click **Accept**.
 * If multiple files were sent, SiaDrop will automatically bundle them into a single, clean `.zip` file and save it directly to your device!
 
 ---

@@ -22,5 +22,4 @@ I have rewritten and added several major features to make the file-sharing exper
 Since the project is already built into static assets, running it is incredibly simple:
 
 1. Clone this repository:
-   ```bash
    git clone [git clone https://github.com/shahriaribnealam/sia-drop.git](git clone https://github.com/shahriaribnealam/sia-drop.git)

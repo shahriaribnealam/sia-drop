@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>SiaDrop — Fast & Secure P2P File Transfer</title>
+<meta name="title" content="SiaDrop — Fast & Secure P2P File Transfer">
+<meta name="description" content="SiaDrop — A fast, secure, and completely free P2P file sharing web app. Share multiple files and folders instantly across your local network without any file size limits using WebRTC technology.">
+<meta name="keywords" content="SiaDrop, P2P file transfer, peer to peer sharing, share multiple files, local network share, WebRTC file transfer, free file sharing, secure file drop, instant web drop">
+<meta name="robots" content="index, follow">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<script type="module" crossorigin src="assets/sia.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" crossorigin href="assets/style.css">
+</head>
+<body>
+<header>
+<div class="logo">
+<a href="/"><img src="assets/favicon.png" style="height: 22px; width: 22px; vertical-align: middle;" alt="SIA Drop"></a>
+<span>SIA Drop</span>
+</div>
+<section class="header-right">
+<p class="my-id-label">Your ID:</p>
+<span class="my-id-label">
+<code id="my-peer-id">—</code>
+</span>
+</section>
+</header>
+<main>
+<div class="radar-area">
+<div class="radar-rings">
+<div class="ring ring-1"></div>
+<div class="ring ring-2"></div>
+<div class="ring ring-3"></div>
+</div>
+<div class="radar-pulse"></div>
+
+<div class="node you" id="you-node">
+<div class="avatar you-avatar">
+<svg width="28" height="28" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="4" fill="currentColor"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round"/></svg>
+<span>You</span>
+</div>
+</div>
+
+<div id="peers-container"></div>
+</div>
+
+<div id="status-msg" class="status-msg">
+Waiting for peers on your network…
+</div>
+<div id="sia-footer">&#169; 2026 - <a href="/">SIA Drop</a> | Secured by WebRTC End-to-End Encryption | Made with <i class="fa-solid fa-heart" style="color: #d51212;"></i> by <a href="https://www.shahriaribnealam.dev" target="_blank">Shahriar Ibne Alam</a>.</div>
+</main>
+<div id="send-modal" class="modal hidden">
+<div class="modal-box">
+<div class="modal-peer-name" id="modal-peer-name">Peer</div>
+<p class="modal-hint">Choose a file to send</p>
+<label class="file-pick-label" id="file-pick-label">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12l7-7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+<span id="file-name-display">Upload file(s)</span>
+<input type="file" id="file-input" style="display:none" multiple />
+</label>
+<div class="modal-actions">
+<button id="send-btn" class="btn-primary" disabled>Send</button>
+<button id="cancel-btn" class="btn-ghost">Cancel</button>
+</div>
+<div id="progress-wrap" class="progress-wrap hidden">
+<div class="progress-bar-track">
+<div class="progress-bar-fill" id="progress-fill"></div>
+</div>
+<span id="progress-label">0%</span>
+</div>
+</div>
+</div>
+<div id="receive-toast" class="receive-toast hidden">
+<div class="toast-inner">
+<div class="toast-title" id="toast-title">Incoming file</div>
+<div class="toast-file" id="toast-file">file.zip</div>
+<div class="toast-actions">
+<button id="accept-btn" class="btn-primary">Accept</button>
+<button id="decline-btn" class="btn-ghost">Decline</button>
+</div>
+</div>
+</div>
+</body>
+</html>
